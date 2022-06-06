@@ -1,0 +1,199 @@
+@media (max-width : 420px) {
+
+    /* Navbar */
+    .uper {
+        background-color: #112B3C;
+        height: 4rem;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .uper-link{ 
+        padding: 10px;
+    }
+
+    .uper-right {
+        text-align: right;
+        margin-top: -1.563rem;
+    }
+
+    .uper-link {
+        color: #fff;
+        text-decoration: none;
+        padding: 15px;
+        font-weight: 500;
+    }
+
+    .uper-link :hover {
+        color: #fff;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    nav {
+        height: 60%;
+    }
+
+    nav h1 {
+        display: none;
+    }
+
+    nav ul li a {
+        margin-left: 65%;
+        padding: 0px;
+        font-size: 1rem;
+    }
+
+    nav ul .dropdown:hover ul {
+        position: relative;
+        display: inline-block;
+    }
+
+    nav ul ul {
+        padding: 0;
+        width: 20%;
+    }
+
+    nav ul ul li a {
+        padding-top: 0px;
+        font-size: .9rem;
+        margin-left: -150%;
+
+    }
+
+    /* Toggler */
+
+    .btn-toggler span {
+        margin-left: 300px;
+        margin-top: -150px;
+    }
+    .btn-toggler span:nth-child(1) {
+        padding: 2.5px;
+    }
+    .btn-toggler span:nth-child(2) {
+        padding: 2.5px;
+    }
+    .btn-toggler span:nth-child(3) {
+        margin-top: -144px;
+        padding: 2.5px;
+    }
+    .btn-toggler span:nth-child(4) {
+        margin-top: -157px;
+        padding: 2.5px;
+    }
+    
+
+    .vr {
+        display: none;
+    }
+
+    /* End Toggler */
+
+    /* End Navbar */
+
+    /* Carousel */
+
+
+    .img-fluid {
+        width: 100%;
+        height: 50%;
+        margin-top: 0px;
+        margin-left: -30%;
+    }
+
+    /* End Carousel */
+
+    /* Card */
+
+    .card {
+        top: -200px;
+        width: 50%;
+        z-index: 1;
+    }
+
+    .card-body {
+        padding: 7px;
+        text-align: justify;
+        font-weight: 300;
+    }
+
+    .card-title {
+        font-size: 10px;
+    }
+
+    /* End Card */
+
+    /* Slider */
+
+    .client-title {
+        padding: 0;
+        margin: -100px 0 50px 0;
+    }
+
+    .slider-img {
+        width: 50%;
+    }
+
+    /* End Slider */
+
+    /* About Page */
+
+    .about-title {
+        padding: 0px;
+        font-size: 30px;
+    }
+
+    .certi {
+        width: 100px;
+        margin-left: 70px;
+    }
+
+    .certi-img {
+        width: 95%;
+        margin-left: 0%;
+    }
+
+    /* End About Page */
+
+    /* Contact us Page */
+
+    .contact-p {
+        width: 300px;
+    }
+
+    /* End Contact Us Page */
+
+    /* Career Page */
+
+    .card-4 {
+        width: 350px;
+    }
+
+    .card-title1 {
+        font-size: medium;
+    }
+
+    /* End Career Page */
+
+    /* Leadership Page */
+
+    .leadership-card {
+        top: 0%;
+        margin-left: 25%;
+    }
+
+    .card1 {
+        margin-left: 25%;
+    }
+
+    .leadership {
+        margin-left: -44px;
+    }
+
+    /* End Leadership Page */
+    .tally-prime-logo {
+        width: 200px;
+    }
+}

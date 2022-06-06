@@ -1,0 +1,60 @@
+<%- include("header") -%>
+
+
+    <section id="recognition">
+        <h1 class="about-title"><img class="card-1-img" src="images/medal.png"> Recognition</h1>
+        <hr class="about-hr">
+        <div class="row">
+            <div class="col-lg-6">
+                <p class="certi-p"> MSME Registration from NSIC </p>
+                <img src="images/NSIC.png" class="certi" alt="" data-bs-target="#nsic" data-bs-toggle="modal">
+            </div>
+            <div class="col-lg-6">
+                <p class="certi-p">ISO 9001 2015</p>
+                <img src="images/iso.png" alt="" class="certi" data-bs-target="#iso" data-bs-toggle="modal">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- NSIC Certificate -->
+
+    <div class="modal fade" id="nsic" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document" >    
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/NSIC.png" style="width: 100%;" alt="">
+                </div>
+            </div>
+            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- End NSIC Certificate -->
+
+        <!-- ISO Certificate -->
+
+        <div class="modal fade" id="iso" tabindex="-1" role="dialog"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document" >    
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="images/iso.png" alt="" style="width: 100%;">
+                </div>
+            </div>
+            <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- End ISO Certificate -->
+
+
+
+
+    <%- include("footer") -%>

@@ -1,0 +1,714 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&display=swap');
+
+body{
+
+font-family: 'Poppins', sans-serif !important; color: #666b74; font-size: 14px !important; line-height: 1.75; letter-spacing: 0.5px;
+
+}
+
+/* Uper Nav Bar */
+
+.uper {
+    background-color: #112B3C;
+    height: 1.875rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.uper-right {
+    text-align: right;
+    margin-top: -1.563rem;
+}
+
+.uper-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px ;
+    font-weight: 500;
+}
+
+.uper-link :hover{
+    color: #fff;
+}
+
+/* End Uper Nav Bar */
+
+/* navbar */
+
+.logo {
+    width: 20rem;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.toggler {
+    margin-left: 1000px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+nav {
+    width: 100%;
+    height: 80%;
+    text-align: right;
+    position: absolute;
+    background-color: #97C4B8;
+    color: #000;
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px rgba(0,0,0,.5);
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav.is-active {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+
+nav ul {
+    position: relative;
+    list-style: none;
+}
+
+.vr {
+    border-left: 3px solid #112B3C;
+    height: 200px;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+}
+
+nav ul li a {
+    display: flex;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 50px 30px;
+    height: 50px;
+    margin-left: 70%;
+    transition: .5s;
+}
+
+nav ul ul {
+    position: absolute;
+    padding: 0;
+    right: 20%;
+    width:60%;
+    height: 100%;
+    top: 0;
+    right: 30%;
+    text-align: left;
+    transition: .5s;
+    display: none;
+
+}
+
+nav ul ul li a {
+    padding: 35px 0px 35px 35px;
+    font-size : 1.3rem
+}
+
+nav ul .dropdown {
+    position: relative;
+    transition: .3s;
+}
+
+nav ul  .dropdown1:hover  ul{
+    display: inline-block;
+}
+
+nav ul .dropdown2:hover ul {
+    display: inline-block;
+}
+nav ul .dropdown3:hover ul {
+    display: inline-block;
+    margin-top: 10%;
+    margin-right: -7%;
+}
+
+.dropdown4:hover ul {
+    display: inline-block;
+}
+
+nav h1 {
+    margin-top:-400px;
+    margin-left: 15%;
+    text-align: justify;
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 50px;
+    color: #112B3C;
+}
+
+.nav-contant {
+    margin-top: 20px;
+}
+
+/* Toggler */
+
+
+.btn-toggler {
+    position: absolute;
+    display: flex;
+    width: 30px;
+}
+
+.btn-toggler span{
+    width: 30px;
+    height: 2px;
+    background-color: #000;
+    display: flex;
+    position: absolute;
+    transition: .3s;
+    margin-left: 400px;
+    margin-top: -50px;
+}
+.btn-toggler span:nth-child(1) {
+    padding: 2.5px;
+}
+.btn-toggler span:nth-child(2) {
+    padding: 2.5px;
+}
+.btn-toggler span:nth-child(3) {
+    margin-top: -57px;
+    padding: 2.5px;
+}
+.btn-toggler span:nth-child(4) {
+    margin-top: -43px;
+    padding: 2.5px;
+}
+
+/* .btn span:nth-child(5) {
+    margin-top: -53px;
+    visibility: hidden;
+}
+.btn span:nth-child(6) {
+    margin-top: -46px;
+    visibility: hidden;
+}
+.btn span:nth-child(7) {
+    margin-top: -47px;
+    visibility: hidden;
+} */
+
+
+
+.btn-toggler.is-active span:nth-child(3) {
+    display: none;
+}
+
+.btn-toggler.is-active span:nth-child(4) {
+    display: none;
+}
+
+.btn-toggler.is-active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(-45deg);
+}
+
+.btn-toggler.is-active span:nth-child(2) {
+    top: 50%;
+    transform: rotate(45deg);
+}
+
+/* End Toggler */
+
+ /* End Nav bar */
+
+
+/* Media Links */
+
+.social-menu ul {
+    position: absolute;
+    transform: translate(-50% , -50);
+    display: flex;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 5px;
+
+}
+.social-menu ul li .fa-brands {
+    font-size: 20px;
+    line-height: 40px;
+    transition: .3s;
+    color: #000;
+
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    transition: .3s;
+    background-color: #fff;
+
+}
+.social-menu ul li a:hover {
+    transform: translate(0 , -10px);
+}
+.social-menu ul li .fa-brands:hover {
+    color: #fff;
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+    background-color: #e1306c;
+}
+.social-menu ul li:nth-child(3) a:hover {
+    background-color: #25d366;
+}
+.social-menu ul li:nth-child(4) a:hover {
+    background-color: #0e76a8;
+}
+
+/* End Media Links */
+
+ /* Carousel */
+
+ /* .carousel-item {
+     padding: 1% 0 0 9%; 
+  } */
+  
+/* .test-img {
+    width: 90%;
+    height: 40rem;
+
+} */
+
+.carousel-control-next-icon , .carousel-control-prev-icon{
+    background-color: black;
+}
+
+.carousel-item1 {
+    width: 1600px;
+    height: 550px;
+}
+
+.img-fluid {
+    width: 100%;
+    z-index: -1;
+}
+
+ /* End Carousel */
+
+ /* Cards */
+
+
+.card {
+    margin-top: -65px ;
+    width: 25%;
+    z-index: 0;
+    box-shadow: 0 10px 15px 5px rgba(0,0,0,0.6);    
+}
+
+.card-1 {
+    background-color: #112B3C;
+}
+
+.card-3 {
+    background-color: #30AADD;
+}
+
+.card-body {
+    padding: 30px;
+    text-align: justify;
+}
+
+.card-1-img {
+    padding: 0 0 20px 0 ;
+    width: 50px;
+}
+
+.card-link {
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    padding:0 30px 0 0;
+    font-size: 15px;
+}
+
+.card-link1 {
+    background-color: #112B3C;
+    color: #fff;
+}
+
+.card-title {
+    padding: 0 0 10px 0 ;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: left;
+}
+
+ /* End Cards */
+
+ /* slider */
+
+ .client-title {
+     padding: 100px 0 50px 0;
+     font-size: 6   0px;
+     color: black;
+     font-weight: 700;
+ }
+
+.slider-card {
+    display: flex;
+}
+
+/* .carousel-inner2 {
+    padding: 0 0 250px 0;
+} */
+
+.slider-img {
+    width: 17%;
+    height: 80%;
+    padding: 20px 20px 0 0;
+    transition: transform .2s;
+    margin-left: 90px;
+}
+
+.slider-img1 {
+    width: 17%;
+    height: 75%;
+    margin-left: 90px;
+    margin-bottom: -120px;
+}
+
+/* .slider-img:hover {
+    opacity: .8;
+    cursor: pointer;
+    text-align: center;
+    transform: scale(1.1);
+}
+ */
+
+ 
+ /* end slider */
+
+ /* Footer */
+
+footer {
+    background-color: #112B3C;
+    padding: 50px 0 10px 0;
+    transition: .5s;
+}
+
+.ftr-link {
+    color: #a3b7cb;
+    text-decoration: none;
+}
+
+.ftr-link:hover {
+    color: #fff;
+}
+
+h3 {
+    font-weight: 300;
+    color: #fff;
+}
+
+li {
+    padding: 5px;
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+ /* End Footer */
+
+
+
+ /* About Page */
+
+ .about-title {
+    color: black;
+}
+
+.vision-title {
+    color: #000;
+}
+
+p {
+    font-size: medium;
+}
+
+.certi {
+    height: 500px;
+    width: 400px;
+    margin-left: 160px;
+    padding-bottom: 20px;
+}
+
+.certi:hover {
+    opacity: .7;
+    cursor: zoom-in;
+}
+
+.certi-p {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    padding: 20px ;
+}
+
+.about-hr {
+    border: 2px solid #112B3C;
+}
+
+.vision {
+    margin-left: 150px;
+}
+
+.team {
+    width: 200px;
+    height: 250px;
+    margin-left: 200px;
+}
+
+
+
+ /* End About Page */
+
+ /* Contact Us Page */  
+
+ .contactus-hr {
+    margin-bottom: 75px;
+}
+
+.contact-form {
+    padding-bottom: 100px;
+}
+
+.contact-h5 {
+    color: black;
+    padding: 20px 0px;
+}
+
+.contact-p {
+    width: 500px;
+}
+ /* End Contact Us Page */
+
+ /* Career Page */
+
+ .card-4 {
+    margin-top: 0px;
+    background-color: #F5F5F5;
+    padding: 2%;
+    border: #000;
+    color: black;
+    width: 1300px;
+    margin: 10px 0;
+}
+
+.card-title1 {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card-subtitle {
+    text-align: center;
+    text-decoration: none;
+}
+
+.career-h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#contant {
+    padding: 50px 0 30px 50px;
+
+}
+
+ /* End Career Page */
+
+  /* Top Scroll Button */
+
+  #btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #112B3C;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #fff;
+    z-index: 1;
+}
+
+#btnScrollToTop:active {
+    background-color: #3b5999;
+}
+
+/* End Top Scroll Button */
+
+/* Sitemap Page */
+
+.sitemap {
+    color: #112B3C;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* End Sitemap Page */
+
+/* Leadership Page */
+
+.leadership-card {
+    margin-top: -65px ;
+    width: 25%;
+    z-index: 0;
+    box-shadow: 0 10px 15px 5px rgba(0,0,0,0.6);    
+}
+
+.leadership-img{
+    height: 275px;
+    width: 250px; 
+    margin-left: -10px;
+}
+
+.leadership-p {
+    margin-top: 1%; 
+    padding-left: 10%;
+    text-align: justify;
+}
+
+.fa-linkedin {
+    color: #FEE2C5;
+    transition: .3s;
+}
+
+.icon {
+    font-size: 40px;
+    position: absolute;
+}
+
+.overlap {
+    position: absolute;
+    top: 40%;
+    visibility: hidden;
+}
+
+.card1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .3s;
+    width: 253px;
+    margin-left: 250px;
+}
+
+.leadership {
+    background: #0e76a8;
+    color: #fff;
+    width: 250px;
+    margin-left: -10px;
+}
+
+.card1:hover {
+    opacity: .7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.card1:hover .overlap {
+    visibility: visible;
+}
+
+.overlap-text.is-active #saurabhDesai {
+    display: block;
+}
+
+.profile-img {
+    height: 250px; 
+    width: 225px; 
+    margin-top: 20%; 
+    margin-left: 15%; 
+    border-radius: 50%; 
+    transition: .3s;
+    box-shadow: 0 5px 10px 20px rgba(0, 0, 0, 0.2), 0 10px 10px 5px rgba(0, 0, 0, 0.19);
+}
+
+/* End Leadership Page */
+
+/* Industries Page */
+
+.industries-ul {
+    text-align: justify;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.indus-h3 {
+    color: #000;
+    font-weight: 500;
+}
+
+/* End Industries Page */
+
+/* Tally Page */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .tally-prime-logo {
+      width: 500px;
+      display: flex;
+  }
+
+  .tally-logo {
+      width: 30%;
+      margin-left: 35%;
+  }
+
+  .tally-h1 {
+      font-weight: 500;
+      text-align: right;
+      margin-top: 50px;
+  }
+
+  .tally-p {
+      color: red;
+      float: right;
+      margin-top: 30px;
+  }
+
+/* End Telly Page */
+
+/* SAP Page */
+
+.sap-carousel {
+    width: 100%;
+    height: 50%;
+}
+
+/* End SAP Page */

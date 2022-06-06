@@ -1,0 +1,200 @@
+@media (max-width: 990px) {
+
+    /* navbar */
+
+    .uper-right {
+        background-color: #112B3C;
+    }
+
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    @media (max-width: 990px) and (min-width : 421px) {
+
+        nav {
+            height: 50%;
+        }
+    }
+
+    nav ul .dropdown:hover ul {
+        position: relative;
+        display: inline-block;
+    }
+
+    nav h1 {
+        margin-left: 0;
+        position: absolute;
+    }
+
+    nav ul .dropdown3:hover ul {
+        margin-top: 20%;
+    }
+
+    .nav-contant {
+        text-align: right;
+    }
+
+
+    /* End Nav Bar  */
+
+    /* Toggler */
+
+    @media (max-width: 990px) and (min-width : 421px) {
+
+        .btn-toggler span {
+            margin-left: 750px;
+            margin-top: -150px;
+        }
+
+        .btn-toggler span:nth-child(1) {
+            padding: 2.5px;
+        }
+
+        .btn-toggler span:nth-child(2) {
+            padding: 2.5px;
+        }
+
+        .btn-toggler span:nth-child(3) {
+            margin-top: -144px;
+            padding: 2.5px;
+        }
+
+        .btn-toggler span:nth-child(4) {
+            margin-top: -156px;
+            padding: 2.5px;
+        }
+
+    }
+
+    .vr {
+        top: 19%;
+        left: 60%;
+        display: none;
+    }
+
+    /* End Toggler */
+
+    /* Carousel */
+
+    .carousel-item1 {
+        width: 1000px;
+        height: 550px;
+    }
+
+    .img-fluid {
+        width: 100%;
+        position: absolute;
+    }
+
+    /* End Carousel */
+
+    /* Card */
+
+    .card-body {
+        padding: 7px;
+        text-align: justify;
+        font-weight: 300;
+    }
+
+    .card {
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .card-title {
+        font-size: 35px;
+    }
+
+    /* End Cards */
+
+    /* Slider */
+
+    h1 {
+        padding: 60px 0 50px 0;
+        font-weight: 700;
+    }
+
+    .slider-img {
+        width: 17%;
+        height: 100%;
+        padding: 20px 20px 50px 0;
+        transition: transform .2s;
+        margin-left: 90px;
+    }
+
+    .slider-img1 {
+        width: 17%;
+        height: 100px;
+        margin-left: 90px;
+    }
+
+    /* End Cards */
+
+    /* About Page */
+
+    .certi {
+        height: 80%;
+        width: 70%;
+    }
+
+    .certi-p {
+        text-align: center;
+        font-size: 20px;
+        color: black;
+    }
+
+
+    /* End About Page */
+
+    /* Career Page */
+
+    @media (max-width: 990px) and (min-width : 421px) {
+        .card-4 {
+            width: 700px;
+        }
+    }
+
+    /* End Career Page */
+
+    /* Vision Page */
+
+    .vision {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .vision-title {
+        padding: 0px;
+    }
+
+    /* End Vision Page */
+
+    /* Leadership Page */
+
+    .leadership-img {
+        margin-left: 0;
+    }
+
+    .leadership-p {
+        margin-top: 25%;
+    }
+
+    /* End Leadership Page */
+
+    /* Tally Page */
+
+    .tally-h1 {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* End Tally Page */
+
+    .coming-soon {
+        width: 300px;
+    }
+
+}
